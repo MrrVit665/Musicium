@@ -14,21 +14,23 @@
     "deezer-public-api": "^1.0.4",
     "discord.js": "^12.3.1",
     "discord.js-pagination": "^1.0.3",
-    "distube": "^2.8.7",
+    "distube": "^2.8.15",
     "enmap": "^5.8.2",
     "fetch": "^1.1.0",
     "ffmpeg-static": "^4.2.7",
+    "https-proxy-agent": "^5.0.0",
     "moment": "^2.27.0",
     "node-fetch": "^2.6.1",
     "soundcloud-downloader": "^0.2.2",
     "soundcloud-key-fetch": "^1.0.11",
     "soundcloud-scraper": "^4.0.1",
     "spotify-url-info": "^2.2.0",
+    "update": "^0.7.4",
     "youtube-sr": "^2.0.5"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node index.js",
     "start": "node index.js"
   },
   "repository": {
